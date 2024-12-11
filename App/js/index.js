@@ -163,22 +163,6 @@ xui.Class('App', 'xui.Module',{
                 .setTop("41.904761904761905em")
                 .setWidth("13.333333333333334em")
                 .setCaption("Make Grid Editable")
-                .onClick([
-                    {
-                        "desc" : "for grid2",
-                        "type" : "control",
-                        "target" : "treegrid2",
-                        "args" : [
-                            {
-                                "editable" : true
-                            },
-                            {
-                            }
-                        ],
-                        "method" : "setProperties",
-                        "event" : 1
-                    }
-                ])
             );
             
             return children;
