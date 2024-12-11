@@ -165,20 +165,6 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("Make Grid Editable")
                 .onClick([
                     {
-                        "desc" : "for grid1",
-                        "type" : "control",
-                        "target" : "treegrid1",
-                        "args" : [
-                            {
-                                "editable" : true
-                            },
-                            {
-                            }
-                        ],
-                        "method" : "setProperties",
-                        "event" : 1
-                    },
-                    {
                         "desc" : "for grid2",
                         "type" : "control",
                         "target" : "treegrid2",
@@ -189,7 +175,8 @@ xui.Class('App', 'xui.Module',{
                             {
                             }
                         ],
-                        "method" : "setProperties"
+                        "method" : "setProperties",
+                        "event" : 1
                     }
                 ])
             );
